@@ -8,30 +8,25 @@
 
 .homenav{
     display: flex;
+}
+.homenav .home{
+    display: block;
     background-image: url('bgimage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 800px;
-    /* justify-content: right; */
-    z-index: -1;
 }
 .homenav .nav {
-    /* display: flex; */
     height: 800px;
-    width: 350px;
-    /* position: relative; */
+    width: 400px;
     background-color: white;
-    display: block;
-    /* float: left; */
     margin-left: -2rem;
-    /* z-index: 1; */
 }
 
 .homenav .nav .links nav ul li {
     margin-left: 5.5rem;
     width: 90px;
-    /* border: 2px solid greenyellow; */
 }
 
 .homenav .nav .links #sbc nav ul li a {
@@ -72,18 +67,20 @@ i {
     margin-left: 0.5rem;
     font-size: 1.7em;
     margin-bottom: 5.5rem;
-    /* position: relative; */
     z-index: 1;
     display: block;
+    cursor: pointer;
 }
 #house{
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 #collapse{
     display: none;
     margin-left: 0.5rem;
     font-size: 1.5em;
     color: white;
+    position: absolute;
+    cursor: pointer;
 }
 #register{
     width: 80px;
@@ -105,11 +102,77 @@ i {
 }
 .logo img{
     height: 200px;
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 .logo a img:hover{
     border-bottom: 2px solid blue;
 }
 .links{
     margin-top: -3rem;
+}
+.homenav .home h4{
+    text-align: center;
+}
+.homenav .home h3{
+    text-align: center;
+    color: rgb(0, 0, 255);
+}
+.homenav .home h4 span{
+    font-size: 2em;
+    color: cyan;
+}
+.homenav .home{
+    padding-top: 12rem;
+}
+.homenav .home h5{
+    text-align: center;
+    color: #ffffff;
+}
+.homenav .home h6{
+    text-align: center;
+    margin-left: 9rem;
+    color: rgb(255, 0, 0);
+}
+.homenav .home button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    background-color: crimson;
+    width: 70px;
+    height: 30px;
+    border-radius: 50px;
+}
+.homenav .home button a{
+    color: white;
+}
+.homenav .home button:hover{
+    background-color: transparent;
+    border-bottom: 1px solid cyan;
+}
+
+@media (max-width: 220px){
+    .homenav .home h6{
+        text-align: center;
+        margin-left: -1rem;
+    }
+    .homenav .home h3{
+        font-size: 0.8em;
+    }
+    .homenav .home h4{
+        font-size: 0.7em;
+    }
+    .homenav .home h5{
+        font-size: 0.6em;
+    }
+    .homenav .home h6{
+        font-size: 0.5em;
+    }
+    .homenav .home button a{
+        font-size: 0.5em;
+    }
+    .homenav .home button{
+        width: 50px;
+        height: 30px;
+    }
 }
