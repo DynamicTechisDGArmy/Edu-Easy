@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.homenav{
+    display: flex;
+    background-image: url('bgimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    /* justify-content: right; */
+    z-index: -1;
+}
+.homenav .nav {
+    /* display: flex; */
+    height: 800px;
+    width: 350px;
+    /* position: relative; */
+    background-color: white;
+    display: block;
+    /* float: left; */
+    margin-left: -2rem;
+    /* z-index: 1; */
+}
+
+.homenav .nav .links nav ul li {
+    margin-left: 5.5rem;
+    width: 90px;
+    /* border: 2px solid greenyellow; */
+}
+
+.homenav .nav .links #sbc nav ul li a {
+    font-size: 0.8em;
+}
+
+.homenav .nav .links #sbc nav ul li a:hover {
+    border-bottom: 2px solid rgb(117, 175, 29);
+}
+
+.homenav .nav .links nav ul li a:hover {
+    border-bottom: 2px solid crimson;
+    border-bottom-style: dotted;
+}
+
+.homenav .nav .links #sbc {
+    display: none;
+}
+
+.homenav .nav .links #sbc nav ul li {
+    list-style: circle;
+    color: red;
+}
+
+i {
+    margin-left: 5.5rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+#chevron {
+    margin-top: -1.2rem;
+    margin-left: 4.5rem;
+    display: block;
+}
+
+#cancel {
+    margin-left: 0.5rem;
+    font-size: 1.7em;
+    margin-bottom: 5.5rem;
+    /* position: relative; */
+    z-index: 1;
+    display: block;
+}
+#house{
+    margin-top: 5rem;
+}
+#collapse{
+    display: none;
+    margin-left: 0.5rem;
+    font-size: 1.5em;
+    color: white;
+}
+#register{
+    width: 80px;
+    height: 30px;
+    margin-top: 0.5rem;
+    border-radius: 50px;
+    font-size: 0.8em;
+    background-color: crimson;
+}
+#register a{
+    text-decoration: none;
+    color: greenyellow;
+}
+#register:hover{
+    background-color: transparent;
+}
+#register a:hover{
+    color: black;
+}
+.logo img{
+    height: 200px;
+    margin-left: 5rem;
+}
+.logo a img:hover{
+    border-bottom: 2px solid blue;
+}
+.links{
+    margin-top: -3rem;
+}
